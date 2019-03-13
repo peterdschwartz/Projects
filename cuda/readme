@@ -1,0 +1,3 @@
+This code tests improvements gained for a batch Cholesky factorization of 1000 square matrices compared to LAPACK.  
+It was compiled with -llapack -lblas -lcudart -lcublas -lpthread flags and associated libraries, and ran on UTK machines with 
+GT 640 GPUs and CUDA 7.5
